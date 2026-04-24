@@ -20,7 +20,8 @@ SLAM을 통해 맵을 생성하고, Navigation2를 활용하여 목표 지점까
 - Navigation2
 ---
 ## 실행 방법
-### 1. Gazebo 실행
+
+1. Gazebo 실행
 ```bash
 ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
 
