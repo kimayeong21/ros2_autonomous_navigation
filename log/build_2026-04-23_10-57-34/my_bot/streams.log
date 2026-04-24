@@ -1,0 +1,25 @@
+[2.031s] Invoking command in '/root/ws/src/my_bot': PYTHONPATH=/root/ws/build/my_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ws/install/my_bot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_bot build --build-base /root/ws/build/my_bot/build install --record /root/ws/build/my_bot/install.log --single-version-externally-managed install_data
+[2.562s] running egg_info
+[2.601s] writing ../../build/my_bot/my_bot.egg-info/PKG-INFO
+[2.601s] writing dependency_links to ../../build/my_bot/my_bot.egg-info/dependency_links.txt
+[2.608s] writing entry points to ../../build/my_bot/my_bot.egg-info/entry_points.txt
+[2.608s] writing requirements to ../../build/my_bot/my_bot.egg-info/requires.txt
+[2.608s] writing top-level names to ../../build/my_bot/my_bot.egg-info/top_level.txt
+[2.682s] reading manifest file '../../build/my_bot/my_bot.egg-info/SOURCES.txt'
+[2.686s] writing manifest file '../../build/my_bot/my_bot.egg-info/SOURCES.txt'
+[2.686s] running build
+[2.686s] running build_py
+[2.686s] copying my_bot/click_to_goal.py -> /root/ws/build/my_bot/build/lib/my_bot
+[2.686s] running install
+[2.698s] running install_lib
+[2.725s] copying /root/ws/build/my_bot/build/lib/my_bot/click_to_goal.py -> /root/ws/install/my_bot/lib/python3.12/site-packages/my_bot
+[2.726s] byte-compiling /root/ws/install/my_bot/lib/python3.12/site-packages/my_bot/click_to_goal.py to click_to_goal.cpython-312.pyc
+[2.727s] running install_data
+[2.728s] running install_egg_info
+[2.783s] removing '/root/ws/install/my_bot/lib/python3.12/site-packages/my_bot-0.0.0-py3.12.egg-info' (and everything under it)
+[2.783s] Copying ../../build/my_bot/my_bot.egg-info to /root/ws/install/my_bot/lib/python3.12/site-packages/my_bot-0.0.0-py3.12.egg-info
+[2.783s] running install_scripts
+[3.015s] Installing click_to_goal script to /root/ws/install/my_bot/lib/my_bot
+[3.016s] Installing pure_pursuit script to /root/ws/install/my_bot/lib/my_bot
+[3.016s] writing list of installed files to '/root/ws/build/my_bot/install.log'
+[3.078s] Invoked command in '/root/ws/src/my_bot' returned '0': PYTHONPATH=/root/ws/build/my_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ws/install/my_bot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_bot build --build-base /root/ws/build/my_bot/build install --record /root/ws/build/my_bot/install.log --single-version-externally-managed install_data

@@ -1,0 +1,21 @@
+[2.310s] Invoking command in '/root/ws/src/my_bot': PYTHONPATH=/root/ws/build/my_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ws/install/my_bot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_bot build --build-base /root/ws/build/my_bot/build install --record /root/ws/build/my_bot/install.log --single-version-externally-managed install_data
+[2.979s] running egg_info
+[3.110s] writing ../../build/my_bot/my_bot.egg-info/PKG-INFO
+[3.110s] writing dependency_links to ../../build/my_bot/my_bot.egg-info/dependency_links.txt
+[3.110s] writing entry points to ../../build/my_bot/my_bot.egg-info/entry_points.txt
+[3.111s] writing requirements to ../../build/my_bot/my_bot.egg-info/requires.txt
+[3.111s] writing top-level names to ../../build/my_bot/my_bot.egg-info/top_level.txt
+[3.281s] reading manifest file '../../build/my_bot/my_bot.egg-info/SOURCES.txt'
+[3.283s] writing manifest file '../../build/my_bot/my_bot.egg-info/SOURCES.txt'
+[3.283s] running build
+[3.284s] running build_py
+[3.284s] running install
+[3.301s] running install_lib
+[3.332s] running install_data
+[3.333s] running install_egg_info
+[3.368s] removing '/root/ws/install/my_bot/lib/python3.12/site-packages/my_bot-0.0.0-py3.12.egg-info' (and everything under it)
+[3.369s] Copying ../../build/my_bot/my_bot.egg-info to /root/ws/install/my_bot/lib/python3.12/site-packages/my_bot-0.0.0-py3.12.egg-info
+[3.371s] running install_scripts
+[3.609s] Installing pure_pursuit script to /root/ws/install/my_bot/lib/my_bot
+[3.610s] writing list of installed files to '/root/ws/build/my_bot/install.log'
+[3.673s] Invoked command in '/root/ws/src/my_bot' returned '0': PYTHONPATH=/root/ws/build/my_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ws/install/my_bot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_bot build --build-base /root/ws/build/my_bot/build install --record /root/ws/build/my_bot/install.log --single-version-externally-managed install_data

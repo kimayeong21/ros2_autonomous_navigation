@@ -1,0 +1,25 @@
+[3.300s] Invoking command in '/root/ws/src/my_turtle_pkg': PYTHONPATH=/root/ws/build/my_turtle_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ws/install/my_turtle_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_turtle_pkg build --build-base /root/ws/build/my_turtle_pkg/build install --record /root/ws/build/my_turtle_pkg/install.log --single-version-externally-managed install_data
+[3.674s] running egg_info
+[3.707s] writing ../../build/my_turtle_pkg/my_turtle_pkg.egg-info/PKG-INFO
+[3.708s] writing dependency_links to ../../build/my_turtle_pkg/my_turtle_pkg.egg-info/dependency_links.txt
+[3.708s] writing entry points to ../../build/my_turtle_pkg/my_turtle_pkg.egg-info/entry_points.txt
+[3.708s] writing requirements to ../../build/my_turtle_pkg/my_turtle_pkg.egg-info/requires.txt
+[3.708s] writing top-level names to ../../build/my_turtle_pkg/my_turtle_pkg.egg-info/top_level.txt
+[3.757s] reading manifest file '../../build/my_turtle_pkg/my_turtle_pkg.egg-info/SOURCES.txt'
+[3.760s] writing manifest file '../../build/my_turtle_pkg/my_turtle_pkg.egg-info/SOURCES.txt'
+[3.760s] running build
+[3.760s] running build_py
+[3.762s] running install
+[3.768s] running install_lib
+[3.794s] running install_data
+[3.797s] running install_egg_info
+[3.834s] removing '/root/ws/install/my_turtle_pkg/lib/python3.12/site-packages/my_turtle_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[3.835s] Copying ../../build/my_turtle_pkg/my_turtle_pkg.egg-info to /root/ws/install/my_turtle_pkg/lib/python3.12/site-packages/my_turtle_pkg-0.0.0-py3.12.egg-info
+[3.838s] running install_scripts
+[4.020s] Installing circle_node script to /root/ws/install/my_turtle_pkg/lib/my_turtle_pkg
+[4.022s] Installing image_listener script to /root/ws/install/my_turtle_pkg/lib/my_turtle_pkg
+[4.022s] Installing image_repub script to /root/ws/install/my_turtle_pkg/lib/my_turtle_pkg
+[4.022s] Installing listener script to /root/ws/install/my_turtle_pkg/lib/my_turtle_pkg
+[4.022s] Installing talker script to /root/ws/install/my_turtle_pkg/lib/my_turtle_pkg
+[4.023s] writing list of installed files to '/root/ws/build/my_turtle_pkg/install.log'
+[4.071s] Invoked command in '/root/ws/src/my_turtle_pkg' returned '0': PYTHONPATH=/root/ws/build/my_turtle_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ws/install/my_turtle_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_turtle_pkg build --build-base /root/ws/build/my_turtle_pkg/build install --record /root/ws/build/my_turtle_pkg/install.log --single-version-externally-managed install_data

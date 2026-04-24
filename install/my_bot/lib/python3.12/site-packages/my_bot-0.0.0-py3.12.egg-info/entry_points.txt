@@ -1,0 +1,8 @@
+[console_scripts]
+astar_planner = my_bot.a_star_planner:main
+astar_pure_pursuit = my_bot.astar_pure_pursuit:main
+click_to_goal = my_bot.click_to_goal:main
+emergency_stop = my_bot.emergency_stop:main
+fake_detector = my_bot.fake_detector:main
+pure_pursuit = my_bot.pure_pursuit:main
+pure_pursuit_obstacle = my_bot.pure_pursuit_obstacle:main

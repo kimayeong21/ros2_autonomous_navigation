@@ -1,0 +1,33 @@
+[1.914s] Invoking command in '/root/ws/src/my_bot': PYTHONPATH=/root/ws/build/my_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ws/install/my_bot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_bot build --build-base /root/ws/build/my_bot/build install --record /root/ws/build/my_bot/install.log --single-version-externally-managed install_data
+[2.205s] running egg_info
+[2.228s] writing ../../build/my_bot/my_bot.egg-info/PKG-INFO
+[2.228s] writing dependency_links to ../../build/my_bot/my_bot.egg-info/dependency_links.txt
+[2.229s] writing entry points to ../../build/my_bot/my_bot.egg-info/entry_points.txt
+[2.229s] writing requirements to ../../build/my_bot/my_bot.egg-info/requires.txt
+[2.229s] writing top-level names to ../../build/my_bot/my_bot.egg-info/top_level.txt
+[2.277s] reading manifest file '../../build/my_bot/my_bot.egg-info/SOURCES.txt'
+[2.279s] writing manifest file '../../build/my_bot/my_bot.egg-info/SOURCES.txt'
+[2.279s] running build
+[2.279s] running build_py
+[2.280s] copying my_bot/fake_detector.py -> /root/ws/build/my_bot/build/lib/my_bot
+[2.280s] copying my_bot/emergency_stop.py -> /root/ws/build/my_bot/build/lib/my_bot
+[2.281s] running install
+[2.287s] running install_lib
+[2.311s] copying /root/ws/build/my_bot/build/lib/my_bot/fake_detector.py -> /root/ws/install/my_bot/lib/python3.12/site-packages/my_bot
+[2.312s] copying /root/ws/build/my_bot/build/lib/my_bot/emergency_stop.py -> /root/ws/install/my_bot/lib/python3.12/site-packages/my_bot
+[2.313s] byte-compiling /root/ws/install/my_bot/lib/python3.12/site-packages/my_bot/fake_detector.py to fake_detector.cpython-312.pyc
+[2.313s] byte-compiling /root/ws/install/my_bot/lib/python3.12/site-packages/my_bot/emergency_stop.py to emergency_stop.cpython-312.pyc
+[2.314s] running install_data
+[2.314s] running install_egg_info
+[2.338s] removing '/root/ws/install/my_bot/lib/python3.12/site-packages/my_bot-0.0.0-py3.12.egg-info' (and everything under it)
+[2.339s] Copying ../../build/my_bot/my_bot.egg-info to /root/ws/install/my_bot/lib/python3.12/site-packages/my_bot-0.0.0-py3.12.egg-info
+[2.342s] running install_scripts
+[2.489s] Installing astar_planner script to /root/ws/install/my_bot/lib/my_bot
+[2.489s] Installing astar_pure_pursuit script to /root/ws/install/my_bot/lib/my_bot
+[2.490s] Installing click_to_goal script to /root/ws/install/my_bot/lib/my_bot
+[2.490s] Installing emergency_stop script to /root/ws/install/my_bot/lib/my_bot
+[2.494s] Installing fake_detector script to /root/ws/install/my_bot/lib/my_bot
+[2.494s] Installing pure_pursuit script to /root/ws/install/my_bot/lib/my_bot
+[2.495s] Installing pure_pursuit_obstacle script to /root/ws/install/my_bot/lib/my_bot
+[2.495s] writing list of installed files to '/root/ws/build/my_bot/install.log'
+[2.531s] Invoked command in '/root/ws/src/my_bot' returned '0': PYTHONPATH=/root/ws/build/my_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ws/install/my_bot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_bot build --build-base /root/ws/build/my_bot/build install --record /root/ws/build/my_bot/install.log --single-version-externally-managed install_data

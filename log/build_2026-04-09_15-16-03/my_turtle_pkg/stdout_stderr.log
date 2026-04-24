@@ -1,0 +1,55 @@
+running egg_info
+creating ../../build/my_turtle_pkg/my_turtle_pkg.egg-info
+writing ../../build/my_turtle_pkg/my_turtle_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_turtle_pkg/my_turtle_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/my_turtle_pkg/my_turtle_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/my_turtle_pkg/my_turtle_pkg.egg-info/requires.txt
+writing top-level names to ../../build/my_turtle_pkg/my_turtle_pkg.egg-info/top_level.txt
+writing manifest file '../../build/my_turtle_pkg/my_turtle_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/my_turtle_pkg/my_turtle_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_turtle_pkg/my_turtle_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/ws/build/my_turtle_pkg/build
+creating /root/ws/build/my_turtle_pkg/build/lib
+creating /root/ws/build/my_turtle_pkg/build/lib/my_turtle_pkg
+copying my_turtle_pkg/image_repub.py -> /root/ws/build/my_turtle_pkg/build/lib/my_turtle_pkg
+copying my_turtle_pkg/circle_turtle.py -> /root/ws/build/my_turtle_pkg/build/lib/my_turtle_pkg
+copying my_turtle_pkg/image_listener.py -> /root/ws/build/my_turtle_pkg/build/lib/my_turtle_pkg
+copying my_turtle_pkg/__init__.py -> /root/ws/build/my_turtle_pkg/build/lib/my_turtle_pkg
+copying my_turtle_pkg/my_talker.py -> /root/ws/build/my_turtle_pkg/build/lib/my_turtle_pkg
+copying my_turtle_pkg/my_listener.py -> /root/ws/build/my_turtle_pkg/build/lib/my_turtle_pkg
+running install
+running install_lib
+creating /root/ws/install/my_turtle_pkg/lib/python3.12/site-packages/my_turtle_pkg
+copying /root/ws/build/my_turtle_pkg/build/lib/my_turtle_pkg/image_repub.py -> /root/ws/install/my_turtle_pkg/lib/python3.12/site-packages/my_turtle_pkg
+copying /root/ws/build/my_turtle_pkg/build/lib/my_turtle_pkg/circle_turtle.py -> /root/ws/install/my_turtle_pkg/lib/python3.12/site-packages/my_turtle_pkg
+copying /root/ws/build/my_turtle_pkg/build/lib/my_turtle_pkg/image_listener.py -> /root/ws/install/my_turtle_pkg/lib/python3.12/site-packages/my_turtle_pkg
+copying /root/ws/build/my_turtle_pkg/build/lib/my_turtle_pkg/__init__.py -> /root/ws/install/my_turtle_pkg/lib/python3.12/site-packages/my_turtle_pkg
+copying /root/ws/build/my_turtle_pkg/build/lib/my_turtle_pkg/my_talker.py -> /root/ws/install/my_turtle_pkg/lib/python3.12/site-packages/my_turtle_pkg
+copying /root/ws/build/my_turtle_pkg/build/lib/my_turtle_pkg/my_listener.py -> /root/ws/install/my_turtle_pkg/lib/python3.12/site-packages/my_turtle_pkg
+byte-compiling /root/ws/install/my_turtle_pkg/lib/python3.12/site-packages/my_turtle_pkg/image_repub.py to image_repub.cpython-312.pyc
+byte-compiling /root/ws/install/my_turtle_pkg/lib/python3.12/site-packages/my_turtle_pkg/circle_turtle.py to circle_turtle.cpython-312.pyc
+byte-compiling /root/ws/install/my_turtle_pkg/lib/python3.12/site-packages/my_turtle_pkg/image_listener.py to image_listener.cpython-312.pyc
+byte-compiling /root/ws/install/my_turtle_pkg/lib/python3.12/site-packages/my_turtle_pkg/__init__.py to __init__.cpython-312.pyc
+byte-compiling /root/ws/install/my_turtle_pkg/lib/python3.12/site-packages/my_turtle_pkg/my_talker.py to my_talker.cpython-312.pyc
+byte-compiling /root/ws/install/my_turtle_pkg/lib/python3.12/site-packages/my_turtle_pkg/my_listener.py to my_listener.cpython-312.pyc
+running install_data
+creating /root/ws/install/my_turtle_pkg/share/ament_index
+creating /root/ws/install/my_turtle_pkg/share/ament_index/resource_index
+creating /root/ws/install/my_turtle_pkg/share/ament_index/resource_index/packages
+copying resource/my_turtle_pkg -> /root/ws/install/my_turtle_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /root/ws/install/my_turtle_pkg/share/my_turtle_pkg
+creating /root/ws/install/my_turtle_pkg/share/my_turtle_pkg/launch
+copying launch/waffle_custom.launch.py -> /root/ws/install/my_turtle_pkg/share/my_turtle_pkg/launch
+creating /root/ws/install/my_turtle_pkg/share/my_turtle_pkg/config
+copying config/waffle_params.yaml -> /root/ws/install/my_turtle_pkg/share/my_turtle_pkg/config
+running install_egg_info
+Copying ../../build/my_turtle_pkg/my_turtle_pkg.egg-info to /root/ws/install/my_turtle_pkg/lib/python3.12/site-packages/my_turtle_pkg-0.0.0-py3.12.egg-info
+running install_scripts
+Installing circle_node script to /root/ws/install/my_turtle_pkg/lib/my_turtle_pkg
+Installing image_listener script to /root/ws/install/my_turtle_pkg/lib/my_turtle_pkg
+Installing image_repub script to /root/ws/install/my_turtle_pkg/lib/my_turtle_pkg
+Installing listener script to /root/ws/install/my_turtle_pkg/lib/my_turtle_pkg
+Installing talker script to /root/ws/install/my_turtle_pkg/lib/my_turtle_pkg
+writing list of installed files to '/root/ws/build/my_turtle_pkg/install.log'

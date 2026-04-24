@@ -1,0 +1,6 @@
+[console_scripts]
+circle_node = my_turtle_pkg.circle_turtle:main
+image_listener = my_turtle_pkg.image_listener:main
+image_repub = my_turtle_pkg.image_repub:main
+listener = my_turtle_pkg.my_listener:main
+talker = my_turtle_pkg.my_talker:main
