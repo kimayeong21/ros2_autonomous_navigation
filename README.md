@@ -1,6 +1,7 @@
 # ROS2 Autonomous Navigation
 
 ## 📌 프로젝트 소개
+
 ROS2 기반 TurtleBot3를 이용한 자율주행 로봇 프로젝트입니다.  
 SLAM을 통해 맵을 생성하고, Navigation2를 활용하여 목표 지점까지 자동 이동합니다.
 ---
@@ -22,7 +23,6 @@ SLAM을 통해 맵을 생성하고, Navigation2를 활용하여 목표 지점까
 ## 실행 방법
 
 1. Gazebo 실행
-```bash
 ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
 
 2. SLAM 실행 (맵 생성)
