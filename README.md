@@ -35,7 +35,7 @@ ros2 run turtlebot3_teleop teleop_keyboard
 ros2 run nav2_map_server map_saver_cli -f ~/map
 
 5. 자율주행
-ros2 launch my_bot tb3_localization.launch.py
+ros2 launch my_bot tb3_localization.launch.py/
 ros2 launch nav2_bringup navigation_launch.py use_sim_time:=true autostart:=true
 
 📂 프로젝트 구조
